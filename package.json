@@ -4,7 +4,7 @@
   "description": "The user management service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js",
+    "dev": "nodemon src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Swagatika07/mern-auth-serv/issues"
   },
-  "homepage": "https://github.com/Swagatika07/mern-auth-serv#readme"
+  "homepage": "https://github.com/Swagatika07/mern-auth-serv#readme",
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
 }
