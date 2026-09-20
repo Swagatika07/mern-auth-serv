@@ -7,6 +7,8 @@
     "dev": "nodemon src/server.ts",
     "format:fix": "prettier . --write",
     "format:check": "prettier . --check",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,10 +22,13 @@
   },
   "homepage": "https://github.com/Swagatika07/mern-auth-serv#readme",
   "devDependencies": {
+    "@eslint/js": "^9.39.5",
     "@types/node": "^22.20.3",
+    "eslint": "^9.39.5",
     "nodemon": "^3.1.14",
     "prettier": "3.9.7",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.70.0"
   }
 }
